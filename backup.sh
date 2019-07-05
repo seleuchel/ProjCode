@@ -5,5 +5,5 @@ echo $Date
 ./mysqldump -ubitnami -peb76b3fdd5 bitnami_redmine > /home/bitnami/backupbox/redmine_backup_$Date.sql
 cd /home/bitnami/backupbox
 #tar -cvzf redmine_backup_$Date.tar.gz redmine_backup_$Date.sql
-chmod 777 redmine_backup_$Date.sql
+chmod 755 redmine_backup_$Date.sql
 #rm redmine_backup_$Date.sql
