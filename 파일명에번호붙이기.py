@@ -14,7 +14,7 @@ file_list.sort()
 
 cnt = 1
 for file in file_list:
-    #실행파일은 변경안함
+    #이 파이썬 코드이름은 변경안함
     if sys.argv[0].split("\\")[-1] == file:
         continue
     print(file)
