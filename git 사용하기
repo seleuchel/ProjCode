@@ -1,5 +1,8 @@
 *원격레포 : github
 *로컬레포 : 니컴퓨터
+@
+  git config --global user.name "username"
+  git config --global user.email "user@email"
 
 @루트로 사용할 깃 저장소 초기화 (왜 필요?)
   git init 
