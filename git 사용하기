@@ -87,4 +87,10 @@
   git reste --har origin/master
   
   
-? fetch는 언제 쓰는 거
+? fetch는 언제 쓰는 거 -> merge는 안하고 싶고, 원격 저장소의 파일 상태는 보고싶을 때 사용
+
+git init
+
+git remode add origin <원격주소>
+
+git pull origin master --allow-unrelated-histories
